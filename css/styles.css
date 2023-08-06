@@ -27,11 +27,7 @@ header ul {
   justify-content: flex-end;
   gap: 20px;
 }
-a {
-  color: #fff;
-  text-decoration: none;
-}
-a:hover {
+T a:hover {
   color: #b5c2d6;
 }
 .project {
@@ -142,4 +138,13 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 0 0 50px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  background: #3882f6;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
